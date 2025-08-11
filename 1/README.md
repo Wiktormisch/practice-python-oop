@@ -9,7 +9,7 @@ Twoim zadaniem jest stworzenie **klasy `Person`**, która będzie reprezentować
 
 ### **✅ Wymagania**
 1. **Zdefiniuj klasę `Person`**, która będzie miała:
-   - Atrybut `name` – imię osoby,
+   - Atrybut `name` – imię osoby,   
    - Atrybut `age` – wiek osoby,
    - Atrybut `city` – miasto, w którym mieszka.
    
@@ -30,7 +30,7 @@ Cześć, mam na imię Anna, mam 30 lat i mieszkam w Krakowie.
 Cześć, mam na imię Piotr, mam 35 lat i mieszkam w Gdańsku.
 ```
 
-**Powodzenia! 🚀**
+**Powodzenia! 🚀**e
 
 
 

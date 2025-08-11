@@ -5,7 +5,7 @@
 # `#02` Python: Programowanie obiektowe
 
 
-Twoim zadaniem jest stworzenie **klasy `Book`**, która będzie reprezentować książkę. Klasa powinna umożliwiać przechowywanie podstawowych informacji o książce oraz ich czytelne wyświetlanie za pomocą **print()**.
+Twoim zadaniem jest stworzenie **klasy `Book`**, która będzie reprezentować książkę. Klasa powinna umożliwiać przechowywanie podstawowych informacji o książce oraz ich czytelne wyświetlanie za pomocą **print()**.0
 
 ### ✅ Wymagania
 
