@@ -1,9 +1,9 @@
 class Employee:
-    def __init__(self, name, postion):
+    def __init__(self, name, position):
         self.name = name
-        self.postion = postion
+        self.position = position
     def describe(self):
-        return self.name + " pracuje jako " + self.postion
+        return self.name + " pracuje jako " + self.position
 
 class Teacher(Employee):
     def __init__ (self, name, postion, subject):
@@ -12,16 +12,16 @@ class Teacher(Employee):
     def describe(self):
         return super().describe() + " i uczy " + self.subject
     
-class Policeofficer(Employee):
+class PoliceOfficer(Employee):
     def __init__ (self, name, postion, rank):
         super().__init__(name,postion)
         self.rank = rank
     def describe(self):
         return super().describe() + ", jego ranga to " + self.rank
     
-employee1 = Employee("Jacek","Dyrektor")
-employee2 = Teacher("Marcin", "Nauczyciel", "Historia")
-employee3 = Policeofficer("Ryszard", "Śledczy", "Porucznik")
-print(employee1.describe())
-print(employee2.describe())
-print(employee3.describe())
+employee_1 = Employee("Jacek","Dyrektor")
+employee_2 = Teacher("Marcin", "Nauczyciel", "Historia")
+employee_3 = PoliceOfficer("Ryszard", "Śledczy", "Porucznik")
+print(employee_1.describe())
+print(employee_2.describe())
+print(employee_3.describe())

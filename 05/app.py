@@ -19,7 +19,7 @@ class BankAccount:
             self.__balance = self.__balance - amount
             print(f"Wypłacono {amount} PLN.")
 
-    def getbalance(self):
+    def get_balance(self):
         return "Stan konta wynosi: " + str(self.__balance) +" PLN"
 
 
@@ -30,4 +30,4 @@ account.withdraw(40) # 60
 account.deposti(200) # 260
 account.deposti(100) # 360
 account.withdraw(60) # 300
-print(account.getbalance())
+print(account.get_balance())

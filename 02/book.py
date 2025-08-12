@@ -4,13 +4,13 @@ class Book:
         self.author = author
         self.year = year
     def __str__(self):
-        return "'" + self.title + "' - " + self.author + "(" + self.year + ")"
+        return f"'{self.title}' - {self.author} ({self.year})"
     
-book1 = Book("Imopeksis", "Tomasz Wilczewski", "2020")
-book2 = Book("1984", "George Orwell", "1949")
-book3 = Book("Michael Jordan Zycie", "Roland Lazenby", "2014")
+book_1 = Book("Imopeksis", "Tomasz Wilczewski", "2020")
+book_2 = Book("1984", "George Orwell", "1949")
+book_3 = Book("Michael Jordan Zycie", "Roland Lazenby", "2014")
 
 
-print(book1)
-print(book2)
-print(book3)
+print(book_1)
+print(book_2)
+print(book_3)
